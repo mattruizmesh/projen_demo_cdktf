@@ -40,7 +40,7 @@
     "@types/node": "^22.13.1",
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
-    "cdktf": "0.13.0",
+    "cdktf": "0.20.0",
     "commit-and-tag-version": "^12",
     "constructs": "10.3.0",
     "eslint": "^9",
@@ -59,8 +59,11 @@
     "typescript": "^5.7.3"
   },
   "peerDependencies": {
-    "cdktf": "^0.13.0",
+    "cdktf": "^0.20.0",
     "constructs": "^10.3.0"
+  },
+  "dependencies": {
+    "@cdktf/provider-azurerm": "^13.17.1"
   },
   "keywords": [
     "cdk",

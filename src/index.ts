@@ -1,5 +1,5 @@
-import { Construct } from 'constructs';
 import { StorageAccount } from '@cdktf/provider-azurerm/lib/storage-account';
+import { Construct } from 'constructs';
 
 export class MyStack extends Construct {
   constructor(scope: Construct, name: string, location: string, resourceGroupName: string) {
