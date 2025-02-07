@@ -59,6 +59,7 @@
     "typescript": "^5.7.3"
   },
   "peerDependencies": {
+    "@cdktf/provider-azurerm": "^13.17.1",
     "cdktf": "^0.20.0",
     "constructs": "^10.3.0"
   },

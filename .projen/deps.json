@@ -99,6 +99,10 @@
       "type": "build"
     },
     {
+      "name": "@cdktf/provider-azurerm",
+      "type": "peer"
+    },
+    {
       "name": "cdktf",
       "version": "^0.20.0",
       "type": "peer"
