@@ -286,7 +286,7 @@
 
 "@cdktf/provider-azurerm@^13.17.1":
   version "13.17.1"
-  resolved "https://registry.yarnpkg.com/@cdktf/provider-azurerm/-/provider-azurerm-13.17.1.tgz#681d36928a1919448db7312550a1d69d6aaf67d0"
+  resolved "https://registry.npmjs.org/@cdktf/provider-azurerm/-/provider-azurerm-13.17.1.tgz"
   integrity sha512-e3TS+V59FDleu/jQk4bJ7XEQrCZxXhJ3rf2/ILlnIjIRwZil0z3rF/fFDa3L94/VeNCa4tzC+9+0dgBkFHKYJQ==
 
 "@cspotcode/source-map-support@^0.8.0":
@@ -1126,7 +1126,7 @@ archiver-utils@^3.0.4:
 
 archiver@5.3.2:
   version "5.3.2"
-  resolved "https://registry.yarnpkg.com/archiver/-/archiver-5.3.2.tgz#99991d5957e53bd0303a392979276ac4ddccf3b0"
+  resolved "https://registry.npmjs.org/archiver/-/archiver-5.3.2.tgz"
   integrity sha512-+25nxyyznAXF7Nef3y0EbBeqmGZgeN/BxHX29Rs39djAfaFalmQ89SE6CWyDCHzGL0yt/ycBtNOmGTW0FyGWNw==
   dependencies:
     archiver-utils "^2.1.0"
@@ -1464,7 +1464,7 @@ case@^1.6.3:
 
 cdktf@0.20.0:
   version "0.20.0"
-  resolved "https://registry.yarnpkg.com/cdktf/-/cdktf-0.20.0.tgz#fae129c9431350ebbf02a95129db6687ee323e43"
+  resolved "https://registry.npmjs.org/cdktf/-/cdktf-0.20.0.tgz"
   integrity sha512-4bCG1/7cYYGyiC++zxJ5wPUZVuxeXvZLY2BqE9heTV/PZtlcwUrV6wfUMtQFbYTCssCEJDnGrOe7Rw1Jf0Sf2w==
   dependencies:
     archiver "5.3.2"
@@ -1628,7 +1628,7 @@ compare-func@^2.0.0:
 
 compress-commons@^4.1.2:
   version "4.1.2"
-  resolved "https://registry.yarnpkg.com/compress-commons/-/compress-commons-4.1.2.tgz#6542e59cb63e1f46a8b21b0e06f9a32e4c8b06df"
+  resolved "https://registry.npmjs.org/compress-commons/-/compress-commons-4.1.2.tgz"
   integrity sha512-D3uMHtGc/fcO1Gt1/L7i1e33VOvD4A9hfQLP+6ewd+BvG/gQ84Yh4oftEhAdjSMgBgwGL+jsppT7JYNpo6MHHg==
   dependencies:
     buffer-crc32 "^0.2.13"
@@ -1817,7 +1817,7 @@ crc-32@^1.2.0:
 
 crc32-stream@^4.0.2:
   version "4.0.3"
-  resolved "https://registry.yarnpkg.com/crc32-stream/-/crc32-stream-4.0.3.tgz#85dd677eb78fa7cad1ba17cc506a597d41fc6f33"
+  resolved "https://registry.npmjs.org/crc32-stream/-/crc32-stream-4.0.3.tgz"
   integrity sha512-NT7w2JVU7DFroFdYkeq8cywxrgjPHWkdX1wjpRQXPX5Asews3tA+Ght6lddQO5Mkumffp3X7GEqku3epj2toIw==
   dependencies:
     crc-32 "^1.2.0"
@@ -3813,7 +3813,7 @@ json-stable-stringify-without-jsonify@^1.0.1:
 
 json-stable-stringify@1.1.0:
   version "1.1.0"
-  resolved "https://registry.yarnpkg.com/json-stable-stringify/-/json-stable-stringify-1.1.0.tgz#43d39c7c8da34bfaf785a61a56808b0def9f747d"
+  resolved "https://registry.npmjs.org/json-stable-stringify/-/json-stable-stringify-1.1.0.tgz"
   integrity sha512-zfA+5SuwYN2VWqN1/5HZaDzQKLJHaBVMZIIM+wuYjdptkaQsqzDdqjqf+lZZJUuJq1aanHiY8LhH8LmH+qBYJA==
   dependencies:
     call-bind "^1.0.5"
@@ -3856,7 +3856,7 @@ jsonfile@^6.0.1:
 
 jsonify@^0.0.1:
   version "0.0.1"
-  resolved "https://registry.yarnpkg.com/jsonify/-/jsonify-0.0.1.tgz#2aa3111dae3d34a0f151c63f3a45d995d9420978"
+  resolved "https://registry.npmjs.org/jsonify/-/jsonify-0.0.1.tgz"
   integrity sha512-2/Ki0GcmuqSrgFyelQq9M05y7PS0mEwuIzrf3f1fPqkVDVRvZrPZtVSMHxdgo8Aq0sxAOb/cr2aqqA3LeWHVPg==
 
 jsonparse@^1.2.0:
@@ -4121,7 +4121,7 @@ minimatch@^3.0.4, minimatch@^3.1.1, minimatch@^3.1.2:
 
 minimatch@^5.0.1, minimatch@^5.1.0:
   version "5.1.6"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-5.1.6.tgz#1cfcb8cf5522ea69952cd2af95ae09477f122a96"
+  resolved "https://registry.npmjs.org/minimatch/-/minimatch-5.1.6.tgz"
   integrity sha512-lKwV/1brpG6mBUFHtb7NUmtABCb2WZZmm2wNiOA5hAb8VdCS4B3dtMWyvcoViccwAW/COERjXLt0zP1zXUN26g==
   dependencies:
     brace-expansion "^2.0.1"
@@ -4598,7 +4598,7 @@ readable-stream@^2.0.0, readable-stream@^2.0.5, readable-stream@~2.3.6:
 
 readable-stream@^3.0.0, readable-stream@^3.0.2, readable-stream@^3.1.1, readable-stream@^3.4.0, readable-stream@^3.6.0:
   version "3.6.2"
-  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-3.6.2.tgz#56a9b36ea965c00c5a93ef31eb111a0f11056967"
+  resolved "https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz"
   integrity sha512-9u/sniCrY3D5WdsERHzHE4G2YCXqoG5FTHUiCC4SIbr6XcLZBY05ya9EKjYek9O5xOAwjGq+1JdGBAS7Q9ScoA==
   dependencies:
     inherits "^2.0.3"
@@ -4607,7 +4607,7 @@ readable-stream@^3.0.0, readable-stream@^3.0.2, readable-stream@^3.1.1, readable
 
 readdir-glob@^1.1.2:
   version "1.1.3"
-  resolved "https://registry.yarnpkg.com/readdir-glob/-/readdir-glob-1.1.3.tgz#c3d831f51f5e7bfa62fa2ffbe4b508c640f09584"
+  resolved "https://registry.npmjs.org/readdir-glob/-/readdir-glob-1.1.3.tgz"
   integrity sha512-v05I2k7xN8zXvPD9N+z/uhXPaj0sUFCe2rcWZIpBsqxfP7xXFQ0tipAd/wjj1YxWyWtUS5IDJpOG82JKt2EAVA==
   dependencies:
     minimatch "^5.1.0"
@@ -4795,7 +4795,7 @@ semver-intersect@^1.5.0:
 
 semver@7.5.4:
   version "7.5.4"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.4.tgz#483986ec4ed38e1c6c48c34894a9182dbff68a6e"
+  resolved "https://registry.npmjs.org/semver/-/semver-7.5.4.tgz"
   integrity sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==
   dependencies:
     lru-cache "^6.0.0"
@@ -5700,7 +5700,7 @@ yocto-queue@^0.1.0:
 
 zip-stream@^4.1.0:
   version "4.1.1"
-  resolved "https://registry.yarnpkg.com/zip-stream/-/zip-stream-4.1.1.tgz#1337fe974dbaffd2fa9a1ba09662a66932bd7135"
+  resolved "https://registry.npmjs.org/zip-stream/-/zip-stream-4.1.1.tgz"
   integrity sha512-9qv4rlDiopXg4E69k+vMHjNN63YFMe9sZMrdlvKnCjlCRWeCBswPPMPUfx+ipsAWq1LXHe70RcbaHdJJpS6hyQ==
   dependencies:
     archiver-utils "^3.0.4"
