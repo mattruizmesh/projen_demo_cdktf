@@ -7,7 +7,7 @@ const project = new cdktf.ConstructLibraryCdktf({
   jsiiVersion: '~5.7.0',
   name: 'projen_demo_cdktf',
   projenrcTs: true,
-  repositoryUrl: 'git@github.com-mesh:mattruizmesh/projen_demo_cdktf.git',
+  repositoryUrl: 'git@github.com:mattruizmesh/projen_demo_cdktf.git',
 
   releaseToNpm: true,
   npmRegistryUrl: 'https://npm.pkg.github.com',

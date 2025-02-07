@@ -2,7 +2,7 @@
   "name": "projen_demo_cdktf",
   "repository": {
     "type": "git",
-    "url": "git@github.com-mesh:mattruizmesh/projen_demo_cdktf.git"
+    "url": "git@github.com:mattruizmesh/projen_demo_cdktf.git"
   },
   "scripts": {
     "build": "npx projen build",
