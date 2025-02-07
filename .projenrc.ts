@@ -10,7 +10,7 @@ const project = new cdktf.ConstructLibraryCdktf({
   repositoryUrl: 'git@github.com-mesh:mattruizmesh/projen_demo_cdktf.git',
 
   releaseToNpm: true,
-  npmRegistry: 'npm.pkg.github.com/@mattruizmesh',
+  npmRegistry: 'npm.pkg.github.com',
 
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
