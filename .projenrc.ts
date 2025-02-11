@@ -7,7 +7,7 @@ const project = new cdktf.ConstructLibraryCdktf({
   jsiiVersion: '~5.7.0',
   name: '@mattruizmesh/projen_demo_cdktf',
   projenrcTs: true,
-  repositoryUrl: 'git@github.com:mattruizmesh/projen_demo_cdktf.git',
+  repositoryUrl: 'https://github.com/mattruizmesh/projen_demo_cdktf.git',
 
   releaseToNpm: true,
   npmDistTag: 'latest',
@@ -20,6 +20,5 @@ const project = new cdktf.ConstructLibraryCdktf({
 });
 
 project.addPeerDeps('@cdktf/provider-azurerm');
-project.addDevDeps('@cdktf/provider-azurerm');
-project.addDeps('@cdktf/provider-azurerm');
+
 project.synth();
