@@ -15,3 +15,16 @@ export class MyStack extends Construct {
     });
   }
 }
+
+export class Storage_FromPackage extends StorageAccount {
+  constructor(scope: Construct, name: string, location: string, resourceGroupName: string) {
+    super(scope, name, {
+      name: name,
+      resourceGroupName: resourceGroupName,
+      location: location,
+      accountReplicationType: 'LRS',
+      accountTier: 'Standard',
+      accountKind: 'StorageV2',
+    });
+  }
+}
