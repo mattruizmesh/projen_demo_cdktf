@@ -5,11 +5,12 @@ const project = new cdktf.ConstructLibraryCdktf({
   cdktfVersion: '^0.20.0',
   defaultReleaseBranch: 'main',
   jsiiVersion: '~5.7.0',
-  name: 'projen_demo_cdktf',
+  name: '@mattruizmesh/projen_demo_cdktf',
   projenrcTs: true,
   repositoryUrl: 'git@github.com:mattruizmesh/projen_demo_cdktf.git',
 
   releaseToNpm: true,
+  npmDistTag: 'latest',
   npmRegistryUrl: 'https://npm.pkg.github.com',
 
   // deps: [],                /* Runtime dependencies of this module. */
