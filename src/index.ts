@@ -16,7 +16,7 @@ export class MyStack extends Construct {
   }
 }
 
-export class Storage_FromPackage extends StorageAccount {
+export class StorageFromPackage extends StorageAccount {
   constructor(scope: Construct, name: string, location: string, resourceGroupName: string) {
     super(scope, name, {
       name: name,
